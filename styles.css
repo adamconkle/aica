@@ -29,6 +29,7 @@ header {
           border-radius: 10px; 
           text-align: center; 
           cursor: pointer;
+          transition: transform 2s;
         }
         .pcard:ul {
           text-align:left;
@@ -36,12 +37,17 @@ header {
         .pcard:li {
           text-align:left;
         }
-        button { 
+        .pcard:button { 
           background-color: purple; 
           color: white; 
           padding: 10px; 
           border: none;  
           border-radius: 10px;
+          cursor: pointer;
+        }
+        .pcard:hover { 
+     /*   transform: scaleY(1.1);  */
+        transform: translateY(-3px);
         }
 
 
