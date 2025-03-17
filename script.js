@@ -1,7 +1,7 @@
 const pricingOptions = [
   { title: "HTML", price: "$199", features: ["HTML files", "Up to 5 files", "or 500 lines of code"] },
   { title: "CSS", price: "$499", features: ["CSS files", "Up to 5 files", "or 500 lines of code"] },
-  { title: "Javascript file", price: "$999", features: ["Javascript files", "Up to 5 files", "or 500 lines of code"] }
+  { title: "Javascript", price: "$999", features: ["Javascript files", "Up to 5 files", "or 500 lines of code"] }
 ];
 
 function generatePricing() {
