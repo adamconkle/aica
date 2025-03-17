@@ -15,7 +15,7 @@ header {
 }
 
 #pricing {
-
+    text-align: center;
 }
 
 #options { 
@@ -39,3 +39,9 @@ header {
           border: none;  
         }
 
+
+footer {
+  text-align: center;
+  display:flex;
+  align-content:flex-end;
+}
