@@ -29,7 +29,8 @@ header {
           border-radius: 10px; 
           text-align: center; 
           cursor: pointer;
-        .pcard > li {
+        }
+        .pcard > ul:li {
           text-align:left;
         }
         button { 
@@ -43,6 +44,7 @@ header {
 
 footer {
   text-align: center;
-  display:flex;
-  align-content:flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
