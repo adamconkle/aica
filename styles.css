@@ -29,7 +29,7 @@ header {
           border-radius: 10px; 
           text-align: center; 
           cursor: pointer;
-        .pcard > ul, li {
+        .pcard > li {
           text-align:left;
         }
         button { 
@@ -37,6 +37,7 @@ header {
           color: white; 
           padding: 10px; 
           border: none;  
+          border-radius: 10px;
         }
 
 
