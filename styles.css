@@ -14,7 +14,26 @@ header {
     text-align: center;
 }
 
-#options { display: flex; gap: 20px; }
-        .pcard { border: 1px solid #ccc; padding: 20px; border-radius: 10px; text-align: center; }
-        button { background-color: purple; color: white; padding: 10px; border: none; cursor: pointer; }
+#pricing {
+  display: flex;
+  justify-content: center;
+}
+
+#options { 
+  display: flex; 
+  gap: 20px; 
+}
+        .pcard { 
+          border: 1px solid #ccc; 
+          padding: 20px; 
+          border-radius: 10px; 
+          text-align: left; 
+          cursor: pointer;
+        }
+        button { 
+          background-color: purple; 
+          color: white; 
+          padding: 10px; 
+          border: none;  
+        }
 
