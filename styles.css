@@ -21,6 +21,7 @@ header {
 
 #options { 
   display: flex; 
+  justify-content: center;
   gap: 20px; 
 }
         .pcard { 
