@@ -23,7 +23,18 @@ header {
   display: flex; 
   justify-content: center;
   gap: 20px; 
+  flex-wrap: wrap;
 }
+         @media (max-width: 768px) {
+           #options {
+            flex-direction: column; /* Stack on mobile */
+            align-items: center;
+           }
+          .pcard {   /*mobile only */
+            width: 90%; 
+            max-width: 400px;
+          }
+        }
         .pcard { 
           border: 1px solid #ccc; 
           padding: 20px; 
