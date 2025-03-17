@@ -12,6 +12,7 @@ body {
 
 header {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 #pricing {
@@ -50,10 +51,10 @@ header {
         transform: translateY(5px);
         }
 
-
 footer {
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  padding-top: 40px;
 }
