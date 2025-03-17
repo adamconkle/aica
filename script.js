@@ -1,7 +1,7 @@
 const pricingOptions = [
-  { title: "Basic", price: "$199", features: ["Single Page Website", "Basic SEO", "Mobile Responsive"] },
-  { title: "Standard", price: "$499", features: ["3-5 Page Website", "SEO Optimization", "Custom Design"] },
-  { title: "Premium", price: "$999", features: ["6-10 Page Website", "Advanced SEO", "E-Commerce Integration"] }
+  { title: "Basic", price: "$199", features: ["Single Page Website Code Audit", "", ""] },
+  { title: "Standard", price: "$499", features: ["3-5 Page Website Code Audit", "", ""] },
+  { title: "Premium", price: "$999", features: ["6-10 Page Website Code Audit", "", ""] }
 ];
 
 function generatePricing() {
